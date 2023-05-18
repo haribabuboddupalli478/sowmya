@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: goldenrod;
+}
+p{
+    {
+        font-family: 'Arvo', serif;
+    } 
+    color: blue;
+}
+h1{
+    color: chartreuse;
+}
+h2{
+    color: aqua;
+}
+h3{
+    color: chocolate;
+}
+h4{
+    color: cornflowerblue;
+}
+h5{
+    color: crimson;
+}
+h6{
+    color:cyan;
+}
