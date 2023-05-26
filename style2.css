@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+
+    list-style-type: none;
+}
+a{
+
+    text-decoration: none;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+}
+.nav-link{
+    display: flex;
+    gap: 30px;
+}
+.nav-button{
+    border: 1px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+
+}
+.home-about-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-links{
+    text-align: center;
+}
+.home-about-image{
+    position: relative;
+}
+.home-about-section{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.home-about-image img
+{
+    height: 500px;
+}
