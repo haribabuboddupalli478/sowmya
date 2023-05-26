@@ -56,29 +56,28 @@ a{
 .home-about-image{
     position: relative;
 }
-.home-about-image{
-        position: absolute;
-        bottom: -460px;
-        left: 0;
+.home-about-img2{
+    position: absolute;
+    bottom: -406px; ;
+    left: 0;
 }
 .home-about-img img{
     height: 500px;
 }
-.social-media-link{
+.social-media{
     display: flex;
     flex-direction: column;
     position: fixed;
     right: 0;
-    top: 30%;
 }
-.social-media-link i{
+.social-media-links i{
     border: 1px solid black;
     padding: 5px 100px 5px 5px;
-    transform: translatex(100px);
+    transform: translate(100px);
     transition: all 0.6s ease-in-out;
 }
-.social-media-link i:hover{
-    transform: translatex(0px);
+.social-media-links i:hover{
+    transform: translate(0px);
     transition: all 0.6s ease-in-out;
 }
 
