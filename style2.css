@@ -81,4 +81,43 @@ a{
     transform: translatex(0px);
     transition: all 0.6s ease-in-out;
 }
-
+.keyboard{
+    display: grid;
+    row-gap:10px ;
+    color: 10px;
+    grid-template-columns: repeat(21,50px);
+}
+.keyboard span{
+border: 1px solid black;
+}
+.esc{
+    grid-column: 1/2;
+    width: 50px;
+}
+.f4{
+    grid-column: 6/8;
+    width: 50px;
+}
+.f8{
+    grid-column: 11/13;
+    width: 50px;
+}
+.pause-break{
+    grid-column: 19/22;
+    width: 50px;
+}  
+.tab{
+    grid-column: 1/2;
+    height: 50px;
+}  
+.pluse{
+    grid-row:3/5 ;
+    grid-column:21/23 ;
+    height:80px ;
+    align-items: center;
+    width: 40px;
+}
+.caps-lock{
+    grid-column: 2/4;
+    height: 50px;
+}    
