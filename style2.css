@@ -110,7 +110,7 @@ border: 1px solid black;
     grid-column: 1/2;
     height: 50px;
 }  
-.pluse{
+.plus{
     grid-row:3/5 ;
     grid-column:21/23 ;
     height:80px ;
@@ -120,4 +120,33 @@ border: 1px solid black;
 .caps-lock{
     grid-column: 2/4;
     height: 50px;
-}    
+} 
+.back{
+    grid-column: 14/17;
+}   
+.claas{
+    grid-column: 15/17;
+}
+.image{
+    position: relative;
+}
+.image2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: up-down 5s infinite linear;
+}
+.image img{
+    height: 600px;
+}
+@keyframes up-down{
+    0%{
+        top: 0;
+    }
+    50%{
+        top: 50px;
+    }
+    100%{
+        top: 0;
+    }
+}
