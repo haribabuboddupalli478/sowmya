@@ -114,7 +114,7 @@
 // });
 
 
-// const headTag=document.querySelector(".hidehead");
-// function web(){
-//     return headTag.classList.toggle("hidehead-active");
-// };
+const headTag=document.querySelector(".hidehead");
+function web(){
+    return headTag.classList.toggle("hidehead-active");
+};
